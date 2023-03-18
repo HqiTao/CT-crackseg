@@ -1,16 +1,16 @@
 # CT_crackseg
 
-This repository contains the code for the paper [A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness](https://cmsworkshops.com/ICIP2023/Papers/Uploads/Proposals/PaperNum/1099/20230221075658_837742_1099.pdf).
+This is the official pyTorch implementation of the paper [A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness](https://arxiv.org/abs/2302.11728).
 
 **Notice:**
 ***Only the inference code is currently open sourced, the training code will follow once the paper review is finished.***
 
 ## Network Architecture
 
- <img src="./figures/model.png" width = "450" height = "200" alt="Diagram of the proposed method" align=center />
+ <img src="./figures/model.png" width = 90%  alt="Diagram of the proposed method" align=center />
 
 ### Visualization of the proposed  Dilated Residual Block.
- <img src="./figures/DRb.png" width = "450" height = "220" alt="Diagram of the proposed moudle" align=center />
+ <img src="./figures/drb.png" width = 90% alt="Diagram of the proposed moudle" align=center />
 
 
 ## Datasets
@@ -80,11 +80,11 @@ It will represent performance measures and will saves related results in `result
 ## Results
 Visual comparison of the segmentation results:
 
- <img src="./figures/results1.png" width = "450" height = "150" alt="Visual comparison of the segmentation results." align=center />
+ <img src="./figures/results1.png" width = 90% alt="Visual comparison of the segmentation results." align=center />
 
 Evaluation metrics of competing methods:
 
- <img src="./figures/table.png" width = "450" height = "100" alt="Evaluation metrics of competing methods on Crack500 and DeepCrack." align=center />
+ <img src="./figures/table.png" width = 90% alt="Evaluation metrics of competing methods on Crack500 and DeepCrack." align=center />
 
 ## Model weights
 You can download the learned weights for each dataset in the following table.
@@ -95,6 +95,6 @@ You can download the learned weights for each dataset in the following table.
 |Deepcrack |[Link](https://drive.google.com/drive/folders/1QACf6O9TmtEVfqQeNldZJoG5UTAg27uQ?usp=share_link)|[Link](https://pan.baidu.com/s/13nG4HepvFDTqUDlOUbH3Zw?pwd=e9b9)|
 
 ## Acknowledgment
-- Thanks to previous open-sourced repo:<br/>
-  [TMUnet](https://github.com/rezazad68/TMUnet)<br/>
-  [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor)
+Thanks to previous open-sourced repo:<br/>
+- [TMUnet](https://github.com/rezazad68/TMUnet)<br/>
+- [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor)
