@@ -2,9 +2,6 @@
 
 This is the official pyTorch implementation of the paper [A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness](https://arxiv.org/abs/2302.11728).
 
-**Notice:**
-***Only the inference code is currently open sourced, the training code will follow once the paper review is finished.***
-
 ## Network Architecture
 
  <img src="./figures/model.png" width = 90%  alt="Diagram of the proposed method" align=center />
@@ -70,6 +67,9 @@ python train_crack.py
 ```
 And the model will be train for 100 epochs and it will save the best weights for the valiation set.
 
+**Notice:**
+***Only the inference code is currently open sourced, the training code will follow once the paper review is finished.***
+
 ## Testing
 ```python
 python evaluate.py --output <path_to_dir>
@@ -91,10 +91,10 @@ You can download the learned weights for each dataset in the following table.
 
 |Dataset|Google Drive|Baidu Yun|
 |:----|:----:|:----:|
-|Crack500 |[Link](https://drive.google.com/drive/folders/1QACf6O9TmtEVfqQeNldZJoG5UTAg27uQ?usp=share_link)|[Link](https://pan.baidu.com/s/13nG4HepvFDTqUDlOUbH3Zw?pwd=e9b9)|
-|Deepcrack |[Link](https://drive.google.com/drive/folders/1QACf6O9TmtEVfqQeNldZJoG5UTAg27uQ?usp=share_link)|[Link](https://pan.baidu.com/s/13nG4HepvFDTqUDlOUbH3Zw?pwd=e9b9)|
+|Crack500 |[link](https://drive.google.com/drive/folders/1QACf6O9TmtEVfqQeNldZJoG5UTAg27uQ?usp=share_link)|[link](https://pan.baidu.com/s/13nG4HepvFDTqUDlOUbH3Zw?pwd=e9b9)|
+|Deepcrack |[link](https://drive.google.com/drive/folders/1QACf6O9TmtEVfqQeNldZJoG5UTAg27uQ?usp=share_link)|[link](https://pan.baidu.com/s/13nG4HepvFDTqUDlOUbH3Zw?pwd=e9b9)|
 
 ## Acknowledgment
-Thanks to previous open-sourced repo:<br/>
+Thanks to previous open-sourced repositories:<br/>
 - [TMUnet](https://github.com/rezazad68/TMUnet)<br/>
-- [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor)
+- [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor)<br/>
