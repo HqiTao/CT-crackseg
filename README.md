@@ -72,7 +72,7 @@ And the model will be train for 100 epochs and it will save the best weights for
 
 ## Testing
 ```python
-python evaluate.py --output <path_to_dir>
+python evaluate_crack.py --output <path_to_dir>
 ```
 It will represent performance measures and will saves related results in `results` folder.
 
