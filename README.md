@@ -1,4 +1,4 @@
-# CT_crackseg
+# CT-crackseg
 
 This is the official pyTorch implementation of the paper [A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness](https://arxiv.org/abs/2302.11728).
 
