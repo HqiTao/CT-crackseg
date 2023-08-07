@@ -40,7 +40,7 @@ The Crack500 dataset contains 500 images of size around 2000 × 1500 pixels take
 ```
 
 ### 2. DeepCrack dataset
-The DeepCrack dataset is consist of 537 RGB color images with manually annotated segmentations. The images were divided into two main subsets: a training set with 300 images and a testing set with 237 ones. And you can download the Deepcrack dataset from [this](https://github.com/yhlleo/DeepCrack) link. Since deepcrack lacks a validation set, we use its test set as a validation set.
+The DeepCrack dataset is consist of 537 RGB color images with manually annotated segmentations. The images were divided into two main subsets: a training set with 300 images and a testing set with 237 ones. And you can download the Deepcrack dataset from [this](https://github.com/yhlleo/DeepCrack) link.
 ```
 |-- DeepCrack
     |-- train
@@ -58,8 +58,6 @@ The DeepCrack dataset is consist of 537 RGB color images with manually annotated
         |   |-- 11125-1.png
             ......
 ```
-
->Before training and testing the model, you can select the dataset you want in [config_crack.yml](https://github.com/HqiTao/CT-crackseg/config_crack.yml) file.
 
 ## Training
 ```python
