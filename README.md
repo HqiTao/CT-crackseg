@@ -65,9 +65,6 @@ python train_crack.py
 ```
 And the model will be train for 100 epochs and it will save the best weights for the valiation set.
 
-**Notice:**
-***Only the inference code is currently open sourced, the training code will follow once the paper review is finished.***
-
 ## Testing
 ```python
 python evaluate_crack.py --output <path_to_dir>
@@ -93,6 +90,18 @@ You can download the learned weights for each dataset in the following table.
 |Deepcrack |[link](https://drive.google.com/drive/folders/1QACf6O9TmtEVfqQeNldZJoG5UTAg27uQ?usp=share_link)|[link](https://pan.baidu.com/s/13nG4HepvFDTqUDlOUbH3Zw?pwd=e9b9)|
 
 ## Acknowledgment
-Thanks to previous open-sourced repositories:<br/>
+Thanks to following repos for their great works:<br/>
 - [TMUnet](https://github.com/rezazad68/TMUnet)<br/>
 - [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor)<br/>
+
+## Citation
+If you find our code or paper useful, please consider citing:
+
+```
+@article{tao2023convolutional,
+  title={A convolutional-transformer network for crack segmentation with boundary awareness},
+  author={Tao, Huaqi and Liu, Bingxi and Cui, Jinqiang and Zhang, Hong},
+  journal={arXiv preprint arXiv:2302.11728},
+  year={2023}
+}
+```
