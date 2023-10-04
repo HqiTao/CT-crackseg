@@ -100,10 +100,10 @@ If you find our code or paper useful, please consider citing:
 ```
 @inproceedings{CTCrackseg,
     title={A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness},
-	author={Tao, Huaqi and Liu, Bingxi and Cui, Jinqiang and Zhang, Hong},
-    booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
-  	pages={86-90},
-  	year={2023},
-  	organization={IEEE}
+    author={Tao, Huaqi and Liu, Bingxi and Cui, Jinqiang and Zhang, Hong},
+    booktitle={2023 IEEE International Conference on Image Processing (ICIP)},
+    pages={86-90},
+    year={2023},
+    organization={IEEE}
 }
 ```
