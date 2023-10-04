@@ -98,10 +98,12 @@ Thanks to following repos for their great works:<br/>
 If you find our code or paper useful, please consider citing:
 
 ```
-@article{tao2023convolutional,
-  title={A convolutional-transformer network for crack segmentation with boundary awareness},
-  author={Tao, Huaqi and Liu, Bingxi and Cui, Jinqiang and Zhang, Hong},
-  journal={arXiv preprint arXiv:2302.11728},
-  year={2023}
+@inproceedings{CTCrackseg,
+    title={A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness},
+	   author={Tao, Huaqi and Liu, Bingxi and Cui, Jinqiang and Zhang, Hong},
+    booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
+  	 pages={86-90},
+  	 year={2023},
+  	 organization={IEEE}
 }
 ```
