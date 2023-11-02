@@ -1,4 +1,9 @@
-# CT-crackseg
+# CT-CrackSeg
+
+[![stars](https://img.shields.io/github/stars/HqiTao/CT-crackseg?style=social)](https://github.com/HqiTao/CT-crackseg/stargazers)
+[![github](https://img.shields.io/badge/GitHub-HqiTao%2FCT--crackesg-blue?logo=Github)](https://github.com/HqiTao/CT-crackseg)
+[![arXiv](https://img.shields.io/badge/arXiv-2302.11728-b31b1b.svg)](https://arxiv.org/abs/2302.11728)
+[![IEEE Xplore ICIP 2023](https://img.shields.io/badge/-IEEE%20Xplore%20ICIP%202023-blue)](https://ieeexplore.ieee.org/document/10222276)
 
 This is the official pyTorch implementation of the paper [A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness](https://arxiv.org/abs/2302.11728).
 
@@ -40,7 +45,7 @@ The Crack500 dataset contains 500 images of size around 2000 × 1500 pixels take
 ```
 
 ### 2. DeepCrack dataset
-The DeepCrack dataset is consist of 537 RGB color images with manually annotated segmentations. The images were divided into two main subsets: a training set with 300 images and a testing set with 237 ones. And you can download the Deepcrack dataset from [this](https://github.com/yhlleo/DeepCrack) link.
+The DeepCrack dataset is consist of 537 RGB color images with manually annotated segmentations. The images were divided into two main subsets: a training set with 300 images and a testing set with 237 ones. You can download the Deepcrack dataset from [this](https://github.com/yhlleo/DeepCrack) link.
 ```
 |-- DeepCrack
     |-- train
@@ -63,7 +68,7 @@ The DeepCrack dataset is consist of 537 RGB color images with manually annotated
 ```python
 python train_crack.py
 ```
-And the model will be train for 100 epochs and it will save the best weights for the valiation set.
+It will run training for model and save the best weights for the validation set.
 
 ## Testing
 ```python
@@ -90,7 +95,7 @@ You can download the learned weights for each dataset in the following table.
 |Deepcrack |[link](https://drive.google.com/drive/folders/1QACf6O9TmtEVfqQeNldZJoG5UTAg27uQ?usp=share_link)|[link](https://pan.baidu.com/s/13nG4HepvFDTqUDlOUbH3Zw?pwd=e9b9)|
 
 ## Acknowledgment
-Thanks to following repos for their great works:<br/>
+CT-CrackSeg is based on following repos. We thanks for their great works:<br/>
 - [TMUnet](https://github.com/rezazad68/TMUnet)<br/>
 - [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor)<br/>
 
@@ -98,7 +103,7 @@ Thanks to following repos for their great works:<br/>
 If you find our code or paper useful, please consider citing:
 
 ```
-@inproceedings{CTCrackseg,
+@inproceedings{CTCrackSeg,
     title={A Convolutional-Transformer Network for Crack Segmentation with Boundary Awareness},
     author={Tao, Huaqi and Liu, Bingxi and Cui, Jinqiang and Zhang, Hong},
     booktitle={2023 IEEE International Conference on Image Processing (ICIP)},
