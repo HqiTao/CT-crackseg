@@ -1,7 +1,7 @@
 # CT-CrackSeg
 
 [![stars](https://img.shields.io/github/stars/HqiTao/CT-crackseg?style=social)](https://github.com/HqiTao/CT-crackseg/stargazers)
-[![github](https://img.shields.io/badge/GitHub-HqiTao%2FCT--crackesg-blue?logo=Github)](https://github.com/HqiTao/CT-crackseg)
+[![github](https://img.shields.io/badge/GitHub-HqiTao%2FCT--crackseg-blue?logo=Github)](https://github.com/HqiTao/CT-crackseg)
 [![arXiv](https://img.shields.io/badge/arXiv-2302.11728-b31b1b.svg)](https://arxiv.org/abs/2302.11728)
 [![IEEE Xplore ICIP 2023](https://img.shields.io/badge/-IEEE%20Xplore%20ICIP%202023-blue)](https://ieeexplore.ieee.org/document/10222276)
 
@@ -74,7 +74,7 @@ It will run training for model and save the best weights for the validation set.
 ```python
 python evaluate_crack.py --output <path_to_dir>
 ```
-It will represent performance measures and will saves related results in `results` folder.
+It will represent performance measures and save related results in `results` folder.
 
 
 ## Results
