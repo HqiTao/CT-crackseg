@@ -96,7 +96,7 @@ Net.load_state_dict(torch.load(config['saved_model'], map_location='cpu')['model
 
 pred_list = []
 gt_list = []
-save_samples = True # if save_samples=Flase, no samples will be saved.
+save_samples = True # if save_samples=False, no samples will be saved.
 
 with torch.no_grad():
     print('val_mode')

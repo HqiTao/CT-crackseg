@@ -7,8 +7,8 @@ batch_size_va:          1 # Batch size for validation
 saved_model:            './checkpoints/weights_deepcrack.model'
 saved_model_final:      './checkpoints/weights_deepcrack_final.model'
 path_to_tradata:        './DeepCrack/train' #path to dataset (./Crack500/train)
-path_to_valdata:        './DeepCrack/test'  #path to dataset (./Crack500/test)
-path_to_testdata:       './DeepCrack/test'  #path to dataset (./Crack500/val)
+path_to_testdata:       './DeepCrack/test'  #path to dataset (./Crack500/test)
+path_to_valdata:        './DeepCrack/test'  #path to dataset (./Crack500/val)
 patience:               6 # number of epochs without improvement to do before finishing training early.reduce the lr
 progress_p:             0.5 # value between 0-1 shows the number of time we need to report training progress in each epoch
 pretrained:             0 # load the previously trained weight or no value should either 1 or 0
